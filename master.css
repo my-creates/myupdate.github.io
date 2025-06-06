@@ -1,0 +1,107 @@
+.cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    /*Got this from Google APIs*/
+  }
+
+  
+  a {
+    font-family: 'Cherry Bomb One', serif;
+    color: #a98a95;
+    text-decoration: none;
+    text-align:center;
+  }
+
+  a:hover {
+    color: #971746;
+    text-decoration: none;
+  }
+
+  body {
+    font-family: 'Cherry Bomb One', serif;
+    color: #916483 ;
+    text-align: center;
+    text-decoration: none;
+    background-color: #deddc6 
+;
+
+  }
+
+  footer {
+    font-family: 'Cherry Bomb One', serif;
+    color: #623a48;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  hr {
+    border: 2px dashed #9a7a85;
+    border-style: none none dashed;
+    /*Got from StackOverflow*/
+  }
+
+  p{
+    color:#bc8a9a
+  }
+
+  @keyframes fadeIn {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+    /*received from Google gemini for help with fading in*/
+  }
+
+  #fade-in-text{
+    opacity: 0;
+    animation: fadeIn 5s ease-in;
+    font-size:25px;
+    /*received from Google gemini for help with fading in*/
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    text-decoration: underline;
+  }
+
+  h2 {
+    color: #a88c9e;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    text-decoration: underline;
+  }
+
+  h3 {
+    color: #ac768f;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+  }
+
+  h4 { 
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+  }
+
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    padding: 0 3px;
+  }
+
+ 
+
